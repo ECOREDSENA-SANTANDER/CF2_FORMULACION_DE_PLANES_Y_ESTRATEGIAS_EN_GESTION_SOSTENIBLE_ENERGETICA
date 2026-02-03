@@ -1,7 +1,9 @@
 export default {
   global: {
-    Name: 'Nombre del recurso educativo',
-    Description: 'Descripción del RED',
+    Name:
+      'Análisis de viabilidad, eficiencia y cuantificación de impactos en procesos energéticos.',
+    Description:
+      'Este componente formativo aborda el análisis de viabilidad, eficiencia y cuantificación de impactos en procesos energéticos, proporcionando a los aprendices las bases necesarias para evaluar la factibilidad técnica y económica de proyectos, identificar el nivel de aprovechamiento de los recursos y medir los efectos ambientales, sociales y económicos asociados. Su propósito es desarrollar competencias que permitan tomar decisiones informadas y promover prácticas energéticas más sostenibles.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -31,28 +33,38 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Tema 1',
+        titulo: 'Fundamentos y diagnóstico de la eficiencia energética',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Subtema 1',
+            titulo:
+              'Análisis de viabilidad económica de tecnologías eficientes',
             hash: 't_1_1',
           },
+          {
+            numero: '1.2',
+            titulo: 'Cuantificación de impactos y reducción de GEI',
+            hash: 't_1_2',
+          },
+          {
+            numero: '1.3',
+            titulo: 'Principios y tipologías de energías renovables',
+            hash: 't_1_3',
+          },
+          {
+            numero: '1.4',
+            titulo:
+              'Evaluación crítica del ciclo de vida en la generación renovable',
+            hash: 't_1_4',
+          },
+          {
+            numero: '1.5',
+            titulo:
+              'Justificación de estrategias de economía circular para componentes de generación renovable',
+            hash: 't_1_5',
+          },
         ],
-      },
-
-      {
-        nombreRuta: 'tema2',
-        numero: '2',
-        titulo: 'Tema 2',
-        desarrolloContenidos: true,
-      },
-      {
-        nombreRuta: 'tema3',
-        numero: '3',
-        titulo: 'Tema 3',
-        desarrolloContenidos: true,
       },
     ],
     subMenu: [
@@ -102,16 +114,122 @@ export default {
   },
   complementario: [
     {
-      tema: 'Tema 1',
-      referencia: 'Texto',
-      tipo: 'Sitio web',
-      link: 'Link',
+      tema: 'Análisis de viabilidad económica de tecnologías eficientes',
+      referencia:
+        'E-commerce Expert (2022, 17 de noviembre). TIR o VPN ¿Cuál es mejor para tomar decisiones de inversión?',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=ezcniOjP-pI',
+    },
+    {
+      tema: 'Cuantificación de impactos y reducción de GEI',
+      referencia:
+        'ESE (2023, 14 de marzo). Webinar Metodología para la cuantificación de ahorros de energía.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=6JyQsU6MQr4',
+    },
+    {
+      tema: 'Evaluación crítica del ciclo de vida en la generación renovable',
+      referencia:
+        'Ahorro Total (2021, 10 de septiembre). 5 TIPOS de ENERGÍAS RENOVABLES y Cómo Funcionan.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=E4ZoFhVPqwY',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Definición',
+      termino: 'Biocapacidad',
+      significado:
+        'capacidad de los ecosistemas para regenerar recursos naturales y absorber los residuos generados por las actividades humanas.',
+    },
+    {
+      termino: 'Cambio climático',
+      significado:
+        'alteración del clima global atribuida principalmente a las emisiones de gases de efecto invernadero provenientes de actividades humanas.',
+    },
+    {
+      termino: 'Ciclo de vida',
+      significado:
+        'conjunto de etapas de un producto o servicio desde la extracción de la materia prima hasta su disposición final.',
+    },
+    {
+      termino: 'Contaminación',
+      significado:
+        'presencia de sustancias nocivas en el aire, agua o suelo que generan efectos negativos en los ecosistemas y la salud humana.',
+    },
+    {
+      termino: 'Desarrollo sostenible',
+      significado:
+        'proceso de crecimiento que integra aspectos económicos, sociales y ambientales para lograr un progreso equitativo y duradero.',
+    },
+    {
+      termino: 'Disposición final',
+      significado:
+        'etapa en la que los residuos son tratados y gestionados al finalizar su vida útil.',
+    },
+    {
+      termino: 'Economía circular',
+      significado:
+        'modelo productivo que busca eliminar residuos, mantener los materiales en uso y regenerar los sistemas naturales.',
+    },
+    {
+      termino: 'Economía lineal',
+      significado:
+        'modelo tradicional basado en extraer, producir, consumir y desechar, generando un flujo continuo de residuos.',
+    },
+    {
+      termino: 'Emisiones de gei',
+      significado:
+        'liberación de gases de efecto invernadero, como co₂, que contribuyen al calentamiento global.',
+    },
+    {
+      termino: 'Eficiencia energética',
+      significado:
+        'uso óptimo de la energía para realizar una actividad con menor consumo e impacto ambiental.',
+    },
+    {
+      termino: 'Huella ecológica',
+      significado:
+        'indicador que mide la demanda humana de recursos naturales frente a la capacidad del planeta para regenerarlos.',
+    },
+    {
+      termino: 'Impactos ambientales',
+      significado:
+        'consecuencias de las actividades humanas sobre el medio ambiente, como contaminación, pérdida de biodiversidad y emisiones de gei.',
+    },
+    {
+      termino: 'Mitigación',
+      significado:
+        'acciones destinadas a reducir o prevenir los impactos ambientales, especialmente las emisiones de gei.',
+    },
+    {
+      termino: 'Recursos naturales',
+      significado:
+        'elementos provenientes de la naturaleza que se utilizan para producir bienes y servicios, como agua, suelo, energía y minerales.',
+    },
+    {
+      termino: 'Sostenibilidad',
+      significado:
+        'que mide la demanda humana de recursos naturales frente a la capacidad del planeta para regenerarlos.',
+    },
+    {
+      termino: 'Impactos ambientales',
+      significado:
+        'consecuencias de las actividades humanas sobre el medio ambiente, como contaminación, pérdida de biodiversidad y emisiones de gei.',
+    },
+    {
+      termino: 'Mitigación',
+      significado:
+        'acciones destinadas a reducir o prevenir los impactos ambientales, especialmente las emisiones de gei.',
+    },
+    {
+      termino: 'Recursos naturales',
+      significado:
+        'elementos provenientes de la naturaleza que se utilizan para producir bienes y servicios, como agua, suelo, energía y minerales.',
+    },
+    {
+      termino: 'Sostenibilidad',
+      significado:
+        'equilibrio entre lo ambiental, social y económico para satisfacer necesidades presentes sin comprometer las de futuras generaciones.',
     },
   ],
   referencias: [
