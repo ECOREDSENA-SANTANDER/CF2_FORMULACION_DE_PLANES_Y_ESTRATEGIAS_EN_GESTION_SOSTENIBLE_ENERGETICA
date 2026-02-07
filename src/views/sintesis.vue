@@ -2,7 +2,10 @@
 .curso-main-container.pb-3
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu tincidunt erat. 
+    p Este componente permitió comprender los fundamentos de la gestión sostenible energética, estableciendo un marco conceptual que integra las dimensiones ambiental, social y económica de la sostenibilidad. Se introdujeron conceptos esenciales como la Huella Ecológica, que evalúa la presión humana sobre los recursos del planeta, y la Economía Circular, orientada a reducir residuos y mantener los materiales en uso de manera eficiente.
+    p También se analizó el ciclo de vida de los procesos energéticos a través de cinco etapas clave: extracción de materias primas, procesamiento, transporte, generación o combustión y disposición final. Esta estructura permitió identificar los principales impactos ambientales asociados a cada fase, como la deforestación, la contaminación del agua y del suelo, las emisiones de GEI y la generación de residuos, ofreciendo una visión integral para la toma de decisiones sostenibles.
+
+
     
 
     .row.justify-content-center

@@ -4,7 +4,7 @@ export default {
       'Análisis de viabilidad, eficiencia y cuantificación de impactos en procesos energéticos.',
     Description:
       'Este componente formativo aborda el análisis de viabilidad, eficiencia y cuantificación de impactos en procesos energéticos, proporcionando a los aprendices las bases necesarias para evaluar la factibilidad técnica y económica de proyectos, identificar el nivel de aprovechamiento de los recursos y medir los efectos ambientales, sociales y económicos asociados. Su propósito es desarrollar competencias que permitan tomar decisiones informadas y promover prácticas energéticas más sostenibles.',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
@@ -14,6 +14,10 @@ export default {
       {
         clases: ['banner-principal-decorativo-2'],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.svg'),
       },
     ],
   },
@@ -177,7 +181,7 @@ export default {
         'modelo tradicional basado en extraer, producir, consumir y desechar, generando un flujo continuo de residuos.',
     },
     {
-      termino: 'Emisiones de gei',
+      termino: 'Emisiones de GEI',
       significado:
         'liberación de gases de efecto invernadero, como co₂, que contribuyen al calentamiento global.',
     },
@@ -211,31 +215,36 @@ export default {
       significado:
         'que mide la demanda humana de recursos naturales frente a la capacidad del planeta para regenerarlos.',
     },
-    {
-      termino: 'Impactos ambientales',
-      significado:
-        'consecuencias de las actividades humanas sobre el medio ambiente, como contaminación, pérdida de biodiversidad y emisiones de gei.',
-    },
-    {
-      termino: 'Mitigación',
-      significado:
-        'acciones destinadas a reducir o prevenir los impactos ambientales, especialmente las emisiones de gei.',
-    },
-    {
-      termino: 'Recursos naturales',
-      significado:
-        'elementos provenientes de la naturaleza que se utilizan para producir bienes y servicios, como agua, suelo, energía y minerales.',
-    },
-    {
-      termino: 'Sostenibilidad',
-      significado:
-        'equilibrio entre lo ambiental, social y económico para satisfacer necesidades presentes sin comprometer las de futuras generaciones.',
-    },
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia:
+        'Comisión Mundial sobre Medio Ambiente y Desarrollo. (1987). Nuestro futuro común (Informe Brundtland)',
+    },
+
+    {
+      referencia:
+        '<i>Global Footprint Network.</i> (2024). Huella Ecológica: Conceptos, Medición y Aplicaciones',
+    },
+
+    {
+      referencia:
+        'Ellen MacArthur Foundation. (2017). Introducción a la economía circular',
+    },
+
+    {
+      referencia:
+        'Agencia Internacional de la Energía (IEA). (2023). <i>World Energy Outlook 2023. IEA Publications</i>',
+    },
+
+    {
+      referencia:
+        'Ministerio de Ambiente y Desarrollo Sostenible (MADS) de Colombia. (2019). Guía metodológica para la evaluación de impactos ambientales.',
+    },
+
+    {
+      referencia:
+        'UNEP, GRID-Arendal. (2018). <i>Energy and the Sustainable Development Goals: An Integrated Approach.</i>',
     },
   ],
   creditos: [
@@ -258,9 +267,14 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: ' ',
-          cargo: ' ',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Gianmarco Serrano Cabarcas',
+          cargo: 'Experto temático',
+          centro: 'Centro Agroturístico - Regional Santander',
+        },
+        {
+          nombre: 'Erika Fernanda Mejía Pinzón',
+          cargo: 'Evaluadora instruccional',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
     },
@@ -268,17 +282,17 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: ' ',
+          nombre: 'Edison Eduardo Mantilla Cuadros',
           cargo: 'Diseñador de contenidos',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: ' ',
-          cargo: 'Desarrollador <i>full stack</i>',
+          nombre: 'Lizeth Karina Manchego Suarez',
+          cargo: 'Desarrolladora <em>full stack</em>',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: ' ',
+          nombre: 'Maria Alejandra Vera Briceño',
           cargo: 'Animador y productor audiovisual',
           centro: 'Centro Agroturístico - Regional Santander',
         },
@@ -288,13 +302,13 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: ' ',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
+          nombre: 'Erika Daniela Manrique Rueda',
+          cargo: 'Validadora y vinculadora de recursos educativos digitales',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: ' ',
-          cargo: 'Evaluador de contenidos inclusivos y accesibles',
+          nombre: '-- ',
+          cargo: 'Evaluadora para contenidos inclusivos y accesibles',
           centro: 'Centro Agroturístico - Regional Santander',
         },
       ],

@@ -25,26 +25,35 @@
 .col-lg-7.col-xxl-5.ps-4.ps-sm-5.py-4.py-sm-5.banner-principal__info
   flex: 0 0 auto !important
   width: 58.33333333% !important
-.banner-principal__img 
-  padding-bottom: 0 !important;
+
 .banner-principal__row .banner-principal__img 
-    width: 33%;
+    width: 26%;
+.banner-principal .tarjeta
+    background-color: transparent !important
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
     
 
 .banner-principal p, .banner-principal h1, .banner-principal h2, .banner-principal h3, .banner-principal h4, .banner-principal h5, .banner-principal h6 
   color: $white !important  
 
+.titulo-principal.color-acento-contenido .titulo-principal__numero 
+    background-color: #2D3D45
+.banner-interno__titulo__icono i 
+    color: #2D3D45 !important
+
+.banner-interno__fondo
+    background-image: url(../assets/curso/portada/fondo-banner-principal-2.png) !important
 
 .banner-interno__titulo h1, .banner-interno__titulo h2, 
 .banner-interno__titulo h3, .banner-interno__titulo h4, 
 .banner-interno__titulo h5, .banner-interno__titulo h6
   color: $white !important  
 .titulo-principal.color-acento-contenido .titulo-principal__numero span
-  color: $color-sistema-texto !important
+  color: $white !important
 figcaption 
     font-weight: normal !important
-
-    background-color: #D2C3DD !important
 
 /**************************************************************/
 /***CUSTOM STYLES***/
@@ -58,7 +67,7 @@ figcaption
   margin-inline: -3.3rem
 .bg-color
   &-1
-    color: $color-primario !important
+    background-color: #E6F2F9 !important
 
 .br
   &-1
@@ -72,7 +81,7 @@ figcaption
   &-1
     height: 750px !important
 
-      
+ 
 
 /**************************************************************/
 /*Media Queries*/  
@@ -86,8 +95,12 @@ figcaption
 //// TABLET 992--------------------------------------
 @media screen and (max-width: $bp-max-md)
   .mb-cus
-    margin-bottom: 2em  !important  
-  
+    margin-bottom: 2em  !important   
+  .col-lg-7.col-xxl-5.ps-4.ps-sm-5.py-4.py-sm-5.banner-principal__info 
+    width: 95% !important;
+  .container .tarjeta
+    background-image: url(../assets/curso/portada/fondo-banner-principal-992.png) !important
+    background-size: cover !important
   
   
 //// TABLET MINI 768--------------------------------------
@@ -101,3 +114,9 @@ figcaption
 @media screen and (max-width: $bp-min-sm)
   .mb-cus
     margin-bottom: 2em  !important
+  .banner-principal .tarjeta
+    background-image: url(../assets/curso/portada/fondo-banner-principal-992.png) !important
+    background-size: cover !important
+  .banner-principal__info
+    padding-top: 5rem !important;
+    padding-bottom: 5rem !important; 
