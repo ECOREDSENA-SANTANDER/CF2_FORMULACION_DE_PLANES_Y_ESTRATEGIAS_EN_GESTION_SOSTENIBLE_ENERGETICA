@@ -7,14 +7,14 @@
           span 1
         h1 Fundamentos y diagnóstico de la eficiencia energética
       
-      .bg-color-1.p-4.mb-5
+      .bg-color-1.p-4.mb-5(data-aos="fade-right")
         .row.justify-content-center.mb-0
           .col-sm-12.col-lg-1.d-none.d-lg-block
             img(src='@/assets/curso/temas/t1/1.svg', alt='')
           .col-sm-12.col-lg-11
               p.mb-0 El estudio de los fundamentos y el diagnóstico de la eficiencia energética permite comprender cómo se utiliza la energía en los diferentes procesos y qué factores determinan su rendimiento. Este apartado brinda al aprendiz las bases necesarias para analizar el consumo, identificar ineficiencias y reconocer oportunidades de mejora que contribuyan a una gestión energética más responsable y sostenible.
       
-      .bg-color-2.p-0.mb-3
+      .bg-color-2.p-0.mb-3(data-aos="fade-right")
         .row.justify-content-center.mb-5.align-items-center
           .col-sm-12.col-lg-5.d-none.d-lg-block
             img(src='@/assets/curso/temas/t1/2.png', alt='')
@@ -29,14 +29,14 @@
 
 
 
-      .row.align-items-center.mb-5.titulo-icono
+      .row.align-items-center.mb-5.titulo-icono(data-aos="fade-right")
         .col-auto.titulo-icono-img
           img(src='@/assets/curso/temas/bg/1.svg', alt='')
         .col
           h3.mb-0.titulo-icono-text.px-0.py-2 Características técnicas de las estrategias de eficiencia (motores de alta eficiencia, variadores de velocidad, iluminación LED y gestión térmica)
 
-      p.mb-5 El aprendiz debe conocer las tecnologías clave que permiten implementar medidas de eficiencia energética. Estas son:
-      .row.justify-content-center.mb-5
+      p.mb-5(data-aos="fade-right") El aprendiz debe conocer las tecnologías clave que permiten implementar medidas de eficiencia energética. Estas son:
+      .row.justify-content-center.mb-5(data-aos="fade-right")
         .col-sm-12.col-lg-3.d-none.d-lg-block
           img(src='@/assets/curso/temas/t1/3.png', alt='')
         .col-sm-12.col-lg-9
@@ -59,14 +59,14 @@
            
 
 
-      .row.align-items-center.mb-5.titulo-icono-2
+      .row.align-items-center.mb-5.titulo-icono-2(data-aos="fade-right")
         .col-auto.titulo-icono-2-img
           img(src='@/assets/curso/temas/bg/1.svg', alt='')
         .col
           h3.mb-0.titulo-icono-2-text.px-0.py-2 Metodologías para el diagnóstico y la identificación de puntos críticos de consumo
 
 
-      p.mb-5 El diagnóstico energético permite determinar dónde se deben aplicar las acciones del PGSE para obtener los mayores beneficios ambientales y económicos. Las principales metodologías son:
+      p.mb-5(data-aos="fade-right") El diagnóstico energético permite determinar dónde se deben aplicar las acciones del PGSE para obtener los mayores beneficios ambientales y económicos. Las principales metodologías son:
       .bg-full-width.bg-fondo-1.mb-0(data-aos="fade-right")
         .p-full-width 
           .row.justify-content-center.align-items-center.mb-0
@@ -117,14 +117,14 @@
                   
 
 
-      p.mb-5 Estos instrumentos permiten obtener información precisa para priorizar acciones y justificar intervenciones.
+      p.mb-5(data-aos="fade-right") Estos instrumentos permiten obtener información precisa para priorizar acciones y justificar intervenciones.
 
       Separador
       #t_1_1.titulo-segundo.color-primario(data-aos='fade-right')
         h2 1.1. Análisis de viabilidad económica de tecnologías eficientes
     
       
-      .row.justify-content-center.mb-5
+      .row.justify-content-center.mb-5(data-aos="fade-right")
         .col-sm-12.col-lg-5.d-none.d-lg-block
           img(src='@/assets/curso/temas/t1/7.png', alt='')
         .col-sm-12.col-lg-7
@@ -137,15 +137,15 @@
  
 
 
-      .row.align-items-center.mb-5.titulo-icono-2
+      .row.align-items-center.mb-5.titulo-icono-2(data-aos="fade-right")
         .col-auto.titulo-icono-2-img
           img(src='@/assets/curso/temas/bg/1.svg', alt='')
         .col
           h3.mb-0.titulo-icono-2-text.px-0.py-2 Indicadores financieros aplicados a proyectos de eficiencia
 
-      p.mb-5 Estos indicadores permiten estimar el comportamiento económico de una inversión y compararla con otras alternativas disponibles:
+      p.mb-5(data-aos="fade-right") Estos indicadores permiten estimar el comportamiento económico de una inversión y compararla con otras alternativas disponibles:
 
-      .row.justify-content-center.mb-5
+      .row.justify-content-center.mb-5(data-aos="fade-right")
         .col-sm-12.col-md-6.col-lg-4.mb-cus
           .tarjeta--boton.color-secundario.p-4.hcard-1
             .row.justify-content-center.mb-3
@@ -175,14 +175,14 @@
 
 
 
-      .row.align-items-center.mb-5.titulo-icono-2
+      .row.align-items-center.mb-5.titulo-icono-2(data-aos="fade-right")
         .col-auto.titulo-icono-2-img
           img(src='@/assets/curso/temas/bg/1.svg', alt='')
         .col
           h3.mb-0.titulo-icono-2-text.px-0.py-2 Análisis de la conveniencia económica del uso de tecnologías eficientes
 
 
-      .bg-color-1.p-4.mb-5
+      .bg-color-1.p-4.mb-5(data-aos="fade-right")
         .row.justify-content-center.mb-0.align-items-center
           .col-sm-12.col-lg-1.d-none.d-lg-block
             img(src='@/assets/curso/temas/t1/12.svg', alt='')
@@ -190,7 +190,7 @@
               p.mb-0 Para determinar si una tecnología eficiente es viable, es necesario comparar su costo de implementación con los ahorros que generará a lo largo del tiempo. Este análisis permite justificar de manera sólida las decisiones del PGSE.
 
 
-      TabsA.color-secundario.mb-5
+      TabsA.color-secundario.mb-5(data-aos="fade-right")
         .tarjeta.bg-color-4.p-5(titulo="Identificación de los costos totales")
           p.mb-4 El aprendiz debe reconocer todos los costos involucrados en la inversión:
           ul.lista-ul--color.mb-0
@@ -221,15 +221,15 @@
           p.mb-0 Este análisis permite comprobar si el proyecto sigue siendo rentable incluso bajo escenarios menos favorables, aumentando la solidez de la decisión.
 
       
-      .row.align-items-center.mb-5.titulo-icono-2
+      .row.align-items-center.mb-5.titulo-icono-2(data-aos="fade-right")
         .col-auto.titulo-icono-2-img
           img(src='@/assets/curso/temas/bg/1.svg', alt='')
         .col
           h3.mb-0.titulo-icono-2-text.px-0.py-2 Herramientas y casos prácticos para la justificación de inversiones
 
-      p.mb-5 Para sustentar adecuadamente una propuesta, el aprendiz debe manejar herramientas de análisis y saber comunicar los resultados de forma clara y convincente.
+      p.mb-5(data-aos="fade-right") Para sustentar adecuadamente una propuesta, el aprendiz debe manejar herramientas de análisis y saber comunicar los resultados de forma clara y convincente.
 
-      TabsC.color-primario
+      TabsC.color-primario(data-aos="fade-right")
         .py-3.py-md-4(titulo="Modelo de flujo de caja descontado")
           .row.justify-content-center.mb-0
             .col-sm-12.col-lg-5.d-none.d-lg-block
@@ -280,23 +280,23 @@
         h2 1.2.Cuantificación de impactos y reducción de GEI
       
       
-      .bg-color-1.p-4.mb-5
+      .bg-color-1.p-4.mb-5(data-aos="fade-right")
         .row.justify-content-center.mb-0.align-items-center
           .col-sm-12.col-lg-1.d-none.d-lg-block
             img(src='@/assets/curso/temas/t1/15.svg', alt='')
           .col-sm-12.col-lg-11
               p.mb-0 Este tema integra el desempeño técnico de la eficiencia energética con los resultados ambientales que genera, cumpliendo con el propósito de definir impactos ambientales con base en los recursos naturales.
 
-      p.mb-5 El objetivo es que el profesional comprenda no solo cuánto se ahorra, sino cómo ese ahorro se traduce en beneficios ambientales reales y medibles.
+      p.mb-5(data-aos="fade-right") El objetivo es que el profesional comprenda no solo cuánto se ahorra, sino cómo ese ahorro se traduce en beneficios ambientales reales y medibles.
 
 
-      .row.align-items-center.mb-5.titulo-icono-2
+      .row.align-items-center.mb-5.titulo-icono-2(data-aos="fade-right")
         .col-auto.titulo-icono-2-img
           img(src='@/assets/curso/temas/bg/1.svg', alt='')
         .col
           h3.mb-0.titulo-icono-2-text.px-0.py-2 Metodología para la cuantificación de variables de eficiencia (kWh, agua, suelo, etc.)
 
-      .row.justify-content-center.mb-5
+      .row.justify-content-center.mb-5(data-aos="fade-right")
         .col-sm-12.col-lg-9
             p.mb-5 En este apartado se explica cómo transformar el ahorro energético y operativo en #[b variables ambientales cuantificables], lo cual permite valorar el impacto positivo del proyecto en la conservación de recursos naturales.
             .bg-color-7.p-0.mb-0
@@ -310,7 +310,7 @@
         .col-sm-12.col-lg-3.d-none.d-lg-block
           img(src='@/assets/curso/temas/t1/16.png', alt='')
 
-      .row.justify-content-center.mb-5
+      .row.justify-content-center.mb-5(data-aos="fade-right")
         .col-sm-12.col-lg-5.bg-color-2.p-4
             p.mb-4.mt-4 Este dato es fundamental porque permite determinar:
             ul.lista-ul--color.mb-0
@@ -328,13 +328,13 @@
           p.mb-0 Un proyecto que ahorra 12.000 kWh / año evita que se quemen X litros de diésel o Y toneladas de carbón, según la matriz energética local.
 
 
-      .row.align-items-center.mb-5.titulo-icono-2
+      .row.align-items-center.mb-5.titulo-icono-2(data-aos="fade-right")
         .col-auto.titulo-icono-2-img
           img(src='@/assets/curso/temas/bg/1.svg', alt='')
         .col
           h3.mb-0.titulo-icono-2-text.px-0.py-2 Ahorro en recursos críticos (agua, suelo, materias primas)
 
-      .row.justify-content-center.mb-5
+      .row.justify-content-center.mb-5(data-aos="fade-right")
         .col-sm-12.col-lg-5.d-none.d-lg-block
           img(src='@/assets/curso/temas/t1/20.png', alt='')
         .col-sm-12.col-lg-7
@@ -353,14 +353,14 @@
           p.mb-0 Esto permite una comprensión más amplia del impacto ambiental del proyecto.
 
 
-      .row.align-items-center.mb-5.titulo-icono-2
+      .row.align-items-center.mb-5.titulo-icono-2(data-aos="fade-right")
         .col-auto.titulo-icono-2-img
           img(src='@/assets/curso/temas/bg/1.svg', alt='')
         .col
           h3.mb-0.titulo-icono-2-text.px-0.py-2  Uso de factores de conversión
 
 
-      .row.justify-content-center.mb-5
+      .row.justify-content-center.mb-5(data-aos="fade-right")
         .col-sm-12.col-lg-7
           .row.justify-content-center.mb-4.align-items-center
             .col-sm-12.col-lg-2.d-none.d-lg-block
@@ -385,13 +385,13 @@
 
 
 
-      .row.align-items-center.mb-5.titulo-icono-2
+      .row.align-items-center.mb-5.titulo-icono-2(data-aos="fade-right")
         .col-auto.titulo-icono-2-img
           img(src='@/assets/curso/temas/bg/1.svg', alt='')
         .col
           h3.mb-0.titulo-icono-2-text.px-0.py-2 Evaluación de la reducción de emisiones de GEI y la huella de carbono
 
-      .row.justify-content-center.mb-5.align-items-center
+      .row.justify-content-center.mb-5.align-items-center(data-aos="fade-right")
         .col-sm-12.col-lg-9
             p.mb-5 Este punto desarrolla la capacidad de #[b cuantificar la mitigación climática] derivada de la eficiencia energética. La reducción de GEI es la métrica central para evaluar el aporte frente al cambio climático.
             .bg-color-7.p-0.mb-0
@@ -445,7 +445,7 @@
 
 
 
-      .bg-color-1.p-4.mb-5
+      .bg-color-1.p-4.mb-5(data-aos="fade-right")
         .row.justify-content-center.mb-0
           .col-sm-12.col-lg-1.d-none.d-lg-block
             img(src='@/assets/curso/temas/t1/26.svg', alt='')
@@ -453,15 +453,15 @@
               p.mb-0 Estos contaminantes afectan directamente la salud pública y la calidad del recurso Aire. Se enseña a cuantificar su reducción usando factores específicos según la fuente de generación.
 
 
-      .row.align-items-center.mb-5.titulo-icono-2
+      .row.align-items-center.mb-5.titulo-icono-2(data-aos="fade-right")
         .col-auto.titulo-icono-2-img
           img(src='@/assets/curso/temas/bg/1.svg', alt='')
         .col
           h3.mb-0.titulo-icono-2-text.px-0.py-2 Relación directa entre ahorro energético y mitigación de impactos sobre los recursos naturales
 
-      p.mb-5 Este numeral integra todos los resultados, demostrando el encadenamiento causa – efecto entre eficiencia energética y sostenibilidad ambiental.
+      p.mb-5(data-aos="fade-right") Este numeral integra todos los resultados, demostrando el encadenamiento causa – efecto entre eficiencia energética y sostenibilidad ambiental.
 
-      .bg-color-2.p-0.mb-3
+      .bg-color-2.p-0.mb-3(data-aos="fade-right")
         .row.justify-content-center.mb-5.align-items-center
           .col-sm-12.col-lg-5.d-none.d-lg-block
             img(src='@/assets/curso/temas/t1/2.png', alt='')
@@ -473,7 +473,7 @@
               p.mb-0 “El ahorro de X kWh/año reduce la extracción de Y toneladas de carbón, mitigando la presión sobre el recurso Suelo y disminuyendo los efectos sobre ecosistemas cercanos.”
 
 
-      .row.justify-content-center.mb-5
+      .row.justify-content-center.mb-5(data-aos="fade-right")
         .col-sm-12.col-lg-5.bg-color-2.p-4
             .bg-color-6.mb-3.px-3.py-2.w-cus-1
               h4.mb-0 Reducción del déficit ecológico
@@ -507,21 +507,21 @@
         h2 1.3. Principios y tipologías de energías renovables
       
       
-      .row.justify-content-center.mb-5
+      .row.justify-content-center.mb-5(data-aos="fade-right")
           .col-sm-12.col-lg-1.d-none.d-lg-block
             img(src='@/assets/curso/temas/t1/29.svg', alt='')
           .col-sm-12.col-lg-11
               p.mb-0 Una estrategia de sostenibilidad no se limita únicamente a mejorar la eficiencia energética; también requiere integrar fuentes de energía limpias que reduzcan la dependencia de combustibles fósiles. Este tema ofrece las bases técnicas necesarias para comprender cómo funcionan las energías renovables y cómo seleccionar la alternativa más adecuada según las necesidades y el contexto del proyecto.
 
-      .row.align-items-center.mb-5.titulo-icono-2
+      .row.align-items-center.mb-5.titulo-icono-2(data-aos="fade-right")
         .col-auto.titulo-icono-2-img
           img(src='@/assets/curso/temas/bg/1.svg', alt='')
         .col
           h3.mb-0.titulo-icono-2-text.px-0.py-2 Principios de funcionamiento, conversión y transformación de la energía renovable
 
-      p.mb-5 Las energías renovables provienen de recursos naturales inagotables, como el sol, el viento, el agua o el calor interno de la tierra. Su uso es más sostenible porque no agotan los recursos del planeta y generan menos impactos ambientales.
+      p.mb-5(data-aos="fade-right") Las energías renovables provienen de recursos naturales inagotables, como el sol, el viento, el agua o el calor interno de la tierra. Su uso es más sostenible porque no agotan los recursos del planeta y generan menos impactos ambientales.
 
-      TabsC.color-primario.mb-5
+      TabsC.color-primario.mb-5(data-aos="fade-right")
         .py-3.py-md-4(titulo="Principio de funcionamiento")
           .row.justify-content-center.mb-0
             .col-sm-12.col-lg-5.d-none.d-lg-block
@@ -630,13 +630,13 @@
 
 
 
-      .row.align-items-center.mb-5.titulo-icono-2
+      .row.align-items-center.mb-5.titulo-icono-2(data-aos="fade-right")
         .col-auto.titulo-icono-2-img
           img(src='@/assets/curso/temas/bg/1.svg', alt='')
         .col
           h3.mb-0.titulo-icono-2-text.px-0.py-2 Viabilidad geográfica y potencial de generación
 
-      .bg-color-1.p-4.mb-5
+      .bg-color-1.p-4.mb-5(data-aos="fade-right")
         .row.justify-content-center.mb-0
           .col-sm-12.col-lg-1.d-none.d-lg-block
             img(src='@/assets/curso/temas/t1/32.svg', alt='')
@@ -646,7 +646,7 @@
 
       
 
-      TabsB.color-primario.mb-5
+      TabsB.color-primario.mb-5(data-aos="fade-right")
         .py-4.py-md-5(titulo="Evaluación del recurso primario" :icono="require('@/assets/curso/temas/t1/33.svg')")
           .row.justify-content-center.mb-0
             .col-sm-12.col-lg-9
@@ -683,13 +683,13 @@
 
 
 
-      .row.align-items-center.mb-5.titulo-icono-2
+      .row.align-items-center.mb-5.titulo-icono-2(data-aos="fade-right")
         .col-auto.titulo-icono-2-img
           img(src='@/assets/curso/temas/bg/1.svg', alt='')
         .col
           h3.mb-0.titulo-icono-2-text.px-0.py-2 Herramientas básicas de análisis de riesgo geográfico para proyectos renovables
 
-      p.mb-5 El riesgo geográfico y climático puede poner en peligro la viabilidad económica del proyecto.
+      p.mb-5(data-aos="fade-right") El riesgo geográfico y climático puede poner en peligro la viabilidad económica del proyecto.
 
       .row.justify-content-center.cursor-pointer.mb-5(data-aos='fade-right')
         .col-sm-12.col-lg-4.col-md-6.col-11.mb-4.mb-xl-0
@@ -727,7 +727,7 @@
         h2 1.4. Evaluación crítica del ciclo de vida en la generación renovable
       
 
-      .bg-color-1.p-4.mb-5
+      .bg-color-1.p-4.mb-5(data-aos="fade-right")
         .row.justify-content-center.mb-0
           .col-sm-12.col-lg-1.d-none.d-lg-block
             img(src='@/assets/curso/temas/t1/1.svg', alt='')
@@ -736,13 +736,13 @@
     
 
 
-      .row.align-items-center.mb-5.titulo-icono-3
+      .row.align-items-center.mb-5.titulo-icono-3(data-aos="fade-right")
         .col
           h3.mb-0.titulo-icono-3-text.px-0.py-2 Identificación de posibles impactos ambientales de las tecnologías renovables (uso de suelo y alteración de ecosistemas)
 
-      p.mb-5 Las tecnologías renovables no son completamente neutras; generan impactos ambientales en distintas etapas de su ciclo de vida.
+      p.mb-5(data-aos="fade-right") Las tecnologías renovables no son completamente neutras; generan impactos ambientales en distintas etapas de su ciclo de vida.
 
-      .row.justify-content-center.mb-5.align-items-center
+      .row.justify-content-center.mb-5.align-items-center(data-aos="fade-right")
         .col-sm-12.col-lg-3.d-none.d-lg-block
           img(src='@/assets/curso/temas/t1/40.png', alt='')
         .col-sm-12.col-lg-9
@@ -760,13 +760,13 @@
                 p.mb-0 La producción de paneles fotovoltaicos, baterías o convertidores electrónicos es intensiva en el consumo de agua y energía. La purificación del silicio, por ejemplo, requiere altas temperaturas y procesos químicos que deben ser contabilizados en el ACV para evaluar su impacto real.
             
 
-      .row.align-items-center.mb-5.titulo-icono-3
+      .row.align-items-center.mb-5.titulo-icono-3(data-aos="fade-right")
         .col
           h3.mb-0.titulo-icono-3-text.px-0.py-2 Riesgos de transferencia de impactos en la generación renovable (minería de metales críticos y residuos tecnológicos)
 
-      p.mb-5 El concepto de #[b transferencia de impactos] señala que una solución ambiental no debe generar problemas mayores en otras etapas del ciclo de vida.
+      p.mb-5(data-aos="fade-right") El concepto de #[b transferencia de impactos] señala que una solución ambiental no debe generar problemas mayores en otras etapas del ciclo de vida.
 
-      .tarjeta--container.row.mb-5
+      .tarjeta--container.row.mb-5(data-aos="fade-right")
         .col-md.tarjeta.color-primario.p-5
           .row.justify-content-center.align-items-end.mb-4
             .col-sm-12.col-lg-2.d-none.d-lg-block
@@ -801,7 +801,7 @@
       #t_1_5.titulo-segundo.color-primario(data-aos='fade-right')
         h2 1.5. Justificación de estrategias de economía circular para componentes de generación renovable
 
-      p.mb-5 Para reducir la huella ambiental y evitar la transferencia de impactos, los proyectos deben integrar estrategias de economía circular desde su fase de diseño.
+      p.mb-5(data-aos="fade-right") Para reducir la huella ambiental y evitar la transferencia de impactos, los proyectos deben integrar estrategias de economía circular desde su fase de diseño.
       .bg-full-width.bg-color-8.mb-5(data-aos="fade-right")
         .p-full-width
           .tarjeta.bg-color-6.p-5.mb-0
@@ -827,7 +827,7 @@
           
           
 
-      .bg-color-1.p-4.mb-0
+      .bg-color-1.p-4.mb-0(data-aos="fade-right")
         .row.justify-content-center.mb-0
           .col-sm-12.col-lg-1.d-none.d-lg-block
             img(src='@/assets/curso/temas/t1/43.svg', alt='')
