@@ -801,6 +801,38 @@
       #t_1_5.titulo-segundo.color-primario(data-aos='fade-right')
         h2 1.5. Justificación de estrategias de economía circular para componentes de generación renovable
 
+      p.mb-5 Para reducir la huella ambiental y evitar la transferencia de impactos, los proyectos deben integrar estrategias de economía circular desde su fase de diseño.
+      .bg-full-width.bg-color-8.mb-5(data-aos="fade-right")
+        .p-full-width
+          .tarjeta.bg-color-6.p-5.mb-0
+            SlyderA(tipo="b")
+              .row.justify-content-center.mb-0
+                .col-sm-12.col-lg-8
+                  h4.mb-5 Logística inversa y retorno de componentes
+                  p.mb-0 El plan debe asegurar que los módulos fotovoltaicos, baterías y palas eólicas sean retornados a centros especializados para su desmontaje, reciclaje o valorización. La logística inversa garantiza la trazabilidad y evita que los residuos terminen en vertederos.
+                .col-sm-12.col-lg-4.d-none.d-lg-block
+                  img(src='@/assets/curso/temas/t1/44.png', alt='')
+              .row.justify-content-center.mb-0
+                .col-sm-12.col-lg-8
+                  h4.mb-5 Recuperación de materiales estratégicos
+                  p.mb-0 Se deben justificar procesos que permitan recuperar silicio, aluminio, vidrio, cobre, imanes y metales críticos para reincorporarlos al ciclo productivo. Esto reduce la demanda de minería primaria y disminuye la huella ecológica del proyecto.
+                .col-sm-12.col-lg-4.d-none.d-lg-block
+                  img(src='@/assets/curso/temas/t1/45.png', alt='')
+              .row.justify-content-center.mb-0
+                .col-sm-12.col-lg-8
+                  h4.mb-5 Extensión de la vida útil (reutilización y reparación)
+                  p.mb-0 Antes de reemplazar equipos, se deben priorizar acciones como reparación, reacondicionamiento o actualización tecnológica. Este enfoque alarga la vida útil, disminuye el impacto ambiental acumulado y mejora la eficiencia económica del sistema.
+                .col-sm-12.col-lg-4.d-none.d-lg-block
+                  img(src='@/assets/curso/temas/t1/46.png', alt='')
+          
+          
+
+      .bg-color-1.p-4.mb-0
+        .row.justify-content-center.mb-0
+          .col-sm-12.col-lg-1.d-none.d-lg-block
+            img(src='@/assets/curso/temas/t1/43.svg', alt='')
+          .col-sm-12.col-lg-11
+              p.mb-0 En el centro de la gestión energética sostenible se encuentra la comprensión del ciclo completo de los materiales y tecnologías. La combinación de ACV y economía circular permite que los sistemas renovables no solo reduzcan emisiones, sino que también minimicen impactos asociados a la extracción, manufactura y disposición final, garantizando una transición energética verdaderamente sostenible.
   </template>
 
 <script>
