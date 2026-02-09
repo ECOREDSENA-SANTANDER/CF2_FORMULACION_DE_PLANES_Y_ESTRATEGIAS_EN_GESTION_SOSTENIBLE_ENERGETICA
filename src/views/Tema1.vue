@@ -265,11 +265,243 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
       Separador
       #t_1_2.titulo-segundo.color-primario(data-aos='fade-right')
         h2 1.2.Cuantificación de impactos y reducción de GEI
       
       
+      .bg-color-1.p-4.mb-5
+        .row.justify-content-center.mb-0.align-items-center
+          .col-sm-12.col-lg-1.d-none.d-lg-block
+            img(src='@/assets/curso/temas/t1/15.svg', alt='')
+          .col-sm-12.col-lg-11
+              p.mb-0 Este tema integra el desempeño técnico de la eficiencia energética con los resultados ambientales que genera, cumpliendo con el propósito de definir impactos ambientales con base en los recursos naturales.
+
+      p.mb-5 El objetivo es que el profesional comprenda no solo cuánto se ahorra, sino cómo ese ahorro se traduce en beneficios ambientales reales y medibles.
+
+
+      .row.align-items-center.mb-5.titulo-icono-2
+        .col-auto.titulo-icono-2-img
+          img(src='@/assets/curso/temas/bg/1.svg', alt='')
+        .col
+          h3.mb-0.titulo-icono-2-text.px-0.py-2 Metodología para la cuantificación de variables de eficiencia (kWh, agua, suelo, etc.)
+
+      .row.justify-content-center.mb-5
+        .col-sm-12.col-lg-9
+            p.mb-5 En este apartado se explica cómo transformar el ahorro energético y operativo en #[b variables ambientales cuantificables], lo cual permite valorar el impacto positivo del proyecto en la conservación de recursos naturales.
+            .bg-color-7.p-0.mb-0
+                .row.justify-content-center.mb-5.align-items-center
+                  .col-sm-12.col-lg-5.d-none.d-lg-block
+                    img(src='@/assets/curso/temas/t1/17.svg', alt='')
+                  .col-sm-12.col-lg-7.p-5
+                      .bg-color-6.mb-5.px-3.py-2.w-cus-1
+                        h4.mb-0 Ahorro de energía primaria
+                      p.mb-0 Se enseña a calcular el ahorro total de energía eléctrica (kWh o MWh) y térmica generado por la medida implementada.
+        .col-sm-12.col-lg-3.d-none.d-lg-block
+          img(src='@/assets/curso/temas/t1/16.png', alt='')
+
+      .row.justify-content-center.mb-5
+        .col-sm-12.col-lg-5.bg-color-2.p-4
+            p.mb-4.mt-4 Este dato es fundamental porque permite determinar:
+            ul.lista-ul--color.mb-0
+              li.d-flex
+                i.fas.fa-check-circle.icon-list
+                p.mb-0 Cuánta energía dejó de demandarse del sistema eléctrico o térmico.
+              li.d-flex.mb-0
+                i.fas.fa-check-circle.icon-list
+                p.mb-0 Cuántos combustibles fósiles se evitaron en la generación.
+        .col-sm-12.col-lg-3.d-none.d-lg-block
+          img(src='@/assets/curso/temas/t1/18.svg', alt='')
+        .col-sm-12.col-lg-4.d-none.d-lg-block
+          img.w-cus-2.mb-5(src='@/assets/curso/temas/t1/19.svg', alt='')
+          p.mb-3.fw-bold Ejemplo:
+          p.mb-0 Un proyecto que ahorra 12.000 kWh / año evita que se quemen X litros de diésel o Y toneladas de carbón, según la matriz energética local.
+
+
+      .row.align-items-center.mb-5.titulo-icono-2
+        .col-auto.titulo-icono-2-img
+          img(src='@/assets/curso/temas/bg/1.svg', alt='')
+        .col
+          h3.mb-0.titulo-icono-2-text.px-0.py-2 Ahorro en recursos críticos (agua, suelo, materias primas)
+
+      .row.justify-content-center.mb-5
+        .col-sm-12.col-lg-5.d-none.d-lg-block
+          img(src='@/assets/curso/temas/t1/20.png', alt='')
+        .col-sm-12.col-lg-7
+          p.mb-3 La eficiencia energética genera reducciones indirectas en otros recursos naturales. Se enseña a cuantificarlas, por ejemplo:
+          .bg-color-1.p-4.mb-3
+            ul.lista-ul--color.mb-0
+              li.d-flex
+                i.fas.fa-check-circle.icon-list
+                p.mb-0 #[b Agua (m³):] volumen que se deja de usar en procesos de enfriamiento o generación.
+              li.d-flex
+                i.fas.fa-check-circle.icon-list
+                p.mb-0 #[b Suelo (m² o ha):] superficie que deja de requerirse para minería o extracción.
+              li.d-flex.mb-0
+                i.fas.fa-check-circle.icon-list
+                p.mb-0 #[b Recursos biofísicos:] biomasa, combustibles o materiales necesarios para producir la energía ahorrada.
+          p.mb-0 Esto permite una comprensión más amplia del impacto ambiental del proyecto.
+
+
+      .row.align-items-center.mb-5.titulo-icono-2
+        .col-auto.titulo-icono-2-img
+          img(src='@/assets/curso/temas/bg/1.svg', alt='')
+        .col
+          h3.mb-0.titulo-icono-2-text.px-0.py-2  Uso de factores de conversión
+
+
+      .row.justify-content-center.mb-5
+        .col-sm-12.col-lg-7
+          .row.justify-content-center.mb-4.align-items-center
+            .col-sm-12.col-lg-2.d-none.d-lg-block
+              img.w-75.m-auto(src='@/assets/curso/temas/t1/22.svg', alt='')
+            .col-sm-12.col-lg-10
+                p.mb-0 Para asegurar resultados precisos, se emplean factores de conversión oficiales que permiten traducir el ahorro energético a unidades ambientales comparables, como:
+          .bg-color-4.p-4.mb-3
+            ul.lista-ul--color.mb-0
+              li.d-flex
+                i.fas.fa-check-circle.icon-list
+                p.mb-0 Energía primaria.
+              li.d-flex
+                i.fas.fa-check-circle.icon-list
+                p.mb-0 Consumo de agua por tipo de generación.
+              li.d-flex.mb-0
+                i.fas.fa-check-circle.icon-list
+                p.mb-0 Uso de suelo y recursos asociados.
+        .col-sm-12.col-lg-5.d-none.d-lg-block
+          img(src='@/assets/curso/temas/t1/21.png', alt='')
+
+
+
+
+
+      .row.align-items-center.mb-5.titulo-icono-2
+        .col-auto.titulo-icono-2-img
+          img(src='@/assets/curso/temas/bg/1.svg', alt='')
+        .col
+          h3.mb-0.titulo-icono-2-text.px-0.py-2 Evaluación de la reducción de emisiones de GEI y la huella de carbono
+
+      .row.justify-content-center.mb-5.align-items-center
+        .col-sm-12.col-lg-9
+            p.mb-5 Este punto desarrolla la capacidad de #[b cuantificar la mitigación climática] derivada de la eficiencia energética. La reducción de GEI es la métrica central para evaluar el aporte frente al cambio climático.
+            .bg-color-7.p-0.mb-0
+                .row.justify-content-center.mb-5.align-items-center
+                  .col-sm-12.col-lg-5.d-none.d-lg-block
+                    img(src='@/assets/curso/temas/t1/24.svg', alt='')
+                  .col-sm-12.col-lg-7.p-5
+                      .bg-color-6.mb-4.px-3.py-2.w-cus-1
+                        h4.mb-0 Cálculo de la reducción de CO₂
+                      p.mb-3 Se aplica la fórmula base:
+                      p.mb-0 Reducción de GEI (tCO₂) = ahorro de energía × factor de emisión. Esto permite identificar el beneficio climático directo del proyecto.
+
+        .col-sm-12.col-lg-3.d-none.d-lg-block
+          img(src='@/assets/curso/temas/t1/23.png', alt='')
+
+
+      .row.justify-content-center.mb-5
+        .col-sm-12.col-lg-5.bg-color-2.p-4
+            .bg-color-6.mb-3.px-3.py-2.w-cus-1
+              h4.mb-0 Contribución a la huella de carbono
+            p.mb-3 El CO₂ evitado reduce proporcionalmente la huella de carbono de la organización. El profesional aprende a:
+            ul.lista-ul--color.mb-0
+              li.d-flex
+                i.fas.fa-check-circle.icon-list
+                p.mb-0 Reportar reducciones anuales.
+              li.d-flex
+                i.fas.fa-check-circle.icon-list
+                p.mb-0 Vincular resultados con metas nacionales e internacionales.
+              li.d-flex.mb-0
+                i.fas.fa-check-circle.icon-list
+                p.mb-0 Incorporar esta información en reportes de sostenibilidad.
+
+
+        .col-sm-12.col-lg-3.d-none.d-lg-block
+          img(src='@/assets/curso/temas/t1/25.svg', alt='')
+        .col-sm-12.col-lg-4.d-none.d-lg-block
+          img.w-cus-2.mb-3(src='@/assets/curso/temas/t1/19.svg', alt='')
+          p.mb-1.fw-bold Impacto en la calidad del aire
+
+          p.mb-3 Además del CO₂, la eficiencia energética disminuye contaminantes como:
+          ul.lista-ul--color.mb-0
+            li.d-flex.mb-0
+                i.fas.fa-check-circle.icon-list
+                p.mb-0.fw-bold NOx.
+            li.d-flex.mb-0
+                i.fas.fa-check-circle.icon-list
+                p.mb-0.fw-bold SOx.
+            li.d-flex.mb-0
+                i.fas.fa-check-circle.icon-list
+                p.mb-0.fw-bold Material particulado (MP).
+
+
+
+      .bg-color-1.p-4.mb-5
+        .row.justify-content-center.mb-0
+          .col-sm-12.col-lg-1.d-none.d-lg-block
+            img(src='@/assets/curso/temas/t1/26.svg', alt='')
+          .col-sm-12.col-lg-11
+              p.mb-0 Estos contaminantes afectan directamente la salud pública y la calidad del recurso Aire. Se enseña a cuantificar su reducción usando factores específicos según la fuente de generación.
+
+
+      .row.align-items-center.mb-5.titulo-icono-2
+        .col-auto.titulo-icono-2-img
+          img(src='@/assets/curso/temas/bg/1.svg', alt='')
+        .col
+          h3.mb-0.titulo-icono-2-text.px-0.py-2 Relación directa entre ahorro energético y mitigación de impactos sobre los recursos naturales
+
+      p.mb-5 Este numeral integra todos los resultados, demostrando el encadenamiento causa – efecto entre eficiencia energética y sostenibilidad ambiental.
+
+      .bg-color-2.p-0.mb-3
+        .row.justify-content-center.mb-5.align-items-center
+          .col-sm-12.col-lg-5.d-none.d-lg-block
+            img(src='@/assets/curso/temas/t1/2.png', alt='')
+          .col-sm-12.col-lg-7.py-3.px-5
+              .bg-color-3.mb-4.px-3.py-2.w-cus-1
+                h4.mb-0.text-white Relación con el Análisis de Ciclo de Vida (ACV)
+              p.mb-3 Se enseña a vincular el ahorro energético con impactos evitados en etapas como extracción, transporte y uso de recursos.
+              p.mb-3.fw-bold Ejemplo:
+              p.mb-0 “El ahorro de X kWh/año reduce la extracción de Y toneladas de carbón, mitigando la presión sobre el recurso Suelo y disminuyendo los efectos sobre ecosistemas cercanos.”
+
+
+      .row.justify-content-center.mb-5
+        .col-sm-12.col-lg-5.bg-color-2.p-4
+            .bg-color-6.mb-3.px-3.py-2.w-cus-1
+              h4.mb-0 Reducción del déficit ecológico
+            p.mb-3 Los ahorros cuantificados en energía, agua y suelo contribuyen a disminuir el déficit ecológico del territorio.
+            p.mb-0 Esto fortalece la justificación ambiental, mostrando que el proyecto avanza hacia un uso más equilibrado de los recursos naturales.
+          
+        .col-sm-12.col-lg-3.d-none.d-lg-block
+          img(src='@/assets/curso/temas/t1/28.svg', alt='')
+        .col-sm-12.col-lg-4.d-none.d-lg-block
+          p.mb-3.fw-bold  Base para el monitoreo y control ambiental
+          p.mb-4 La metodología de cuantificación desarrollada aquí se convierte en la base para:
+          .bg-color-4.mb-0.p-4
+            ul.lista-ul--color.mb-0
+              li.d-flex.mb-0
+                i.fas.fa-check-circle.icon-list
+                p.mb-0 Indicadores de desempeño ambiental.
+              li.d-flex.mb-0
+                i.fas.fa-check-circle.icon-list
+                p.mb-0  Sistemas de monitoreo continuo.
+              li.d-flex.mb-0
+                i.fas.fa-check-circle.icon-list
+                p.mb-0  Reportes de avance y seguimiento del proyecto.
+
+
+
+
+
+
       Separador
       #t_1_3.titulo-segundo.color-primario(data-aos='fade-right')
         h2 1.3. Principios y tipologías de energías renovables
