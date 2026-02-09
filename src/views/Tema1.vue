@@ -507,6 +507,221 @@
         h2 1.3. Principios y tipologías de energías renovables
       
       
+      .row.justify-content-center.mb-5
+          .col-sm-12.col-lg-1.d-none.d-lg-block
+            img(src='@/assets/curso/temas/t1/29.svg', alt='')
+          .col-sm-12.col-lg-11
+              p.mb-0 Una estrategia de sostenibilidad no se limita únicamente a mejorar la eficiencia energética; también requiere integrar fuentes de energía limpias que reduzcan la dependencia de combustibles fósiles. Este tema ofrece las bases técnicas necesarias para comprender cómo funcionan las energías renovables y cómo seleccionar la alternativa más adecuada según las necesidades y el contexto del proyecto.
+
+      .row.align-items-center.mb-5.titulo-icono-2
+        .col-auto.titulo-icono-2-img
+          img(src='@/assets/curso/temas/bg/1.svg', alt='')
+        .col
+          h3.mb-0.titulo-icono-2-text.px-0.py-2 Principios de funcionamiento, conversión y transformación de la energía renovable
+
+      p.mb-5 Las energías renovables provienen de recursos naturales inagotables, como el sol, el viento, el agua o el calor interno de la tierra. Su uso es más sostenible porque no agotan los recursos del planeta y generan menos impactos ambientales.
+
+      TabsC.color-primario.mb-5
+        .py-3.py-md-4(titulo="Principio de funcionamiento")
+          .row.justify-content-center.mb-0
+            .col-sm-12.col-lg-5.d-none.d-lg-block
+              img(src='@/assets/curso/temas/t1/30.svg', alt='')
+            .col-sm-12.col-lg-6
+                p.mb-3.mt-5 Cada fuente renovable aprovecha un fenómeno natural que ocurre de manera continua:
+                ul.lista-ul--color.mb-3
+                  li.d-flex
+                    i.fas.fa-check-circle.icon-list
+                    p.mb-0 #[b Solar:] radiación proveniente del sol.
+                  li.d-flex
+                    i.fas.fa-check-circle.icon-list
+                    p.mb-0 #[b Eólica:] movimiento del viento generado por diferencias de temperatura.
+                  li.d-flex
+                    i.fas.fa-check-circle.icon-list
+                    p.mb-0 #[b Hidráulica:] movimiento del agua producto del ciclo hidrológico.
+                  li.d-flex
+                    i.fas.fa-check-circle.icon-list
+                    p.mb-0 #[b Geotérmica:] calor almacenado en el interior de la Tierra.
+                  li.d-flex
+                    i.fas.fa-check-circle.icon-list
+                    p.mb-0 #[b Biomasa:] energía contenida en materia orgánica vegetal o animal.
+
+                p.mb-0 El sistema captura ese flujo natural para transformarlo en energía útil, ya sea eléctrica o térmica.
+        .py-3.py-md-4(titulo="Conversión y transformación")
+          .row.justify-content-center.mb-0
+            .col-sm-12.col-lg-5.d-none.d-lg-block
+              img(src='@/assets/curso/temas/t1/31.svg', alt='')
+            .col-sm-12.col-lg-6
+                p.mb-4 Una vez capturada la energía natural, se requiere convertirla a una forma que pueda ser utilizada por los equipos o sistemas.
+                p.mb-3 Ejemplo didáctico: #[b Energía solar fotovoltaica]
+                ol.lista-ol--cuadro
+                  li.d-flex
+                    .lista-ol--cuadro__vineta
+                      span 1
+                    p.mb-0 #[b Captura:] los paneles solares reciben la radiación del sol.
+                  li.d-flex
+                    .lista-ol--cuadro__vineta
+                      span 2
+                    p.mb-0 #[b Efecto fotovoltaico:] los fotones golpean el material semiconductor, liberando electrones.
+                  li.d-flex
+                    .lista-ol--cuadro__vineta
+                      span 3
+                    p.mb-0 #[b Generación:] el movimiento de estos electrones produce electricidad en forma de corriente continua (CC).
+                  li.d-flex
+                    .lista-ol--cuadro__vineta
+                      span 4
+                    p.mb-0 #[b Transformación:] un inversor convierte la corriente continua en corriente alterna (CA), apta para el consumo.
+
+                p.mb-0 Este mismo esquema (captura, conversión y transformación) se aplica a todas las energías renovables, adaptándose a la naturaleza de cada fuente.
+
+
+
+
+      .row.align-items-center.mb-5.titulo-icono-2
+        .col-auto.titulo-icono-2-img
+          img(src='@/assets/curso/temas/bg/1.svg', alt='')
+        .col
+          h3.mb-0.titulo-icono-2-text.px-0.py-2 Diferenciación de tipos de energía renovable
+
+
+      p.mb-5 Conocer y diferenciar las tipologías de energías renovables es fundamental para seleccionar la alternativa adecuada según las condiciones geográficas, climáticas y técnicas del proyecto. Cada fuente tiene un origen distinto y un potencial de aprovechamiento particular.
+
+
+
+
+      TabsA.color-secundario.mb-5
+        .tarjeta.bg-color-4.p-5(titulo="Energía solar")
+          ul.lista-ul--color.mb-0
+            li.d-flex
+              i.fas.fa-check-circle.icon-list
+              p.mb-0 #[b Fotovoltaica (PV):] convierte directamente la radiación solar en electricidad. Es ideal para sistemas distribuidos, autoconsumo y zonas con buena radiación.
+            li.d-flex
+              i.fas.fa-check-circle.icon-list
+              p.mb-0 #[b Solar térmica:] aprovecha el calor del sol para calentar agua o aire. En su versión concentrada (CSP), genera vapor para mover turbinas y producir electricidad.
+
+
+        .tarjeta.bg-color-4.p-5(titulo="Energía eólica")
+          p.mb-3 Aprovecha la energía cinética del viento para generar electricidad.
+          ul.lista-ul--color.mb-0
+            li.d-flex
+              i.fas.fa-check-circle.icon-list
+              p.mb-0 #[b #[i Onshore] (terrestre):] más común y de menor costo.
+            li.d-flex
+              i.fas.fa-check-circle.icon-list
+              p.mb-0 #[b #[i Offshore] (marítima):] mayor potencial de generación, pero con mayores desafíos técnicos y económicos.
+ 
+        .tarjeta.bg-color-4.p-5(titulo="Energía hidráulica")
+          p.mb-4 Generación eléctrica mediante el movimiento del agua.
+          ul.lista-ul--color.mb-4
+            li.d-flex
+              i.fas.fa-check-circle.icon-list
+              p.mb-0 #[b Grandes centrales:] requieren embalses y pueden generar impactos ambientales y sociales significativos.
+            li.d-flex
+              i.fas.fa-check-circle.icon-list
+              p.mb-0 #[b Pequeñas centrales hidroeléctricas (PCH) o a filo de agua:] más sostenibles y compatibles con proyectos de gestión energética responsable.
+
+        .tarjeta.bg-color-4.p-5(titulo="Bioenergía y biomasa")
+          p.mb-0 Producción de calor, electricidad o biocombustibles a partir de materia orgánica o residuos agrícolas y forestales. Su mayor valor radica en que promueve la economía circular al aprovechar residuos que de otro modo serían desechados.
+
+        .tarjeta.bg-color-4.p-5(titulo="Energía geotérmica")
+          p.mb-0 Utiliza el calor interno de la Tierra para generar electricidad o calefacción, especialmente viable en zonas con actividad volcánica o geotérmica.
+
+
+
+
+
+
+      .row.align-items-center.mb-5.titulo-icono-2
+        .col-auto.titulo-icono-2-img
+          img(src='@/assets/curso/temas/bg/1.svg', alt='')
+        .col
+          h3.mb-0.titulo-icono-2-text.px-0.py-2 Viabilidad geográfica y potencial de generación
+
+      .bg-color-1.p-4.mb-5
+        .row.justify-content-center.mb-0
+          .col-sm-12.col-lg-1.d-none.d-lg-block
+            img(src='@/assets/curso/temas/t1/32.svg', alt='')
+          .col-sm-12.col-lg-11
+              p.mb-3.fw-bold Criterios para la evaluación de sitios y asociación del potencial de generación con condiciones geográficas y recursos disponibles
+              p.mb-0 La elección de una tecnología renovable no es arbitraria; debe basarse en un análisis riguroso del sitio.
+
+      
+
+      TabsB.color-primario.mb-5
+        .py-4.py-md-5(titulo="Evaluación del recurso primario" :icono="require('@/assets/curso/temas/t1/33.svg')")
+          .row.justify-content-center.mb-0
+            .col-sm-12.col-lg-9
+                p.mb-3 Se requiere la cuantificación del recurso disponible a lo largo del año.
+                ul.lista-ul--color.mb-0
+                  li.d-flex
+                    i.fas.fa-circle.icon-list
+                    p.mb-0 #[b Energía solar:] se evalúa la radiación solar directa normal (DNI, por sus siglas en inglés Direct Normal Irradiance) y la radiación global horizontal (GHI, Global Horizontal Irradiance) en el sitio. Un lugar se considera viable si presenta altos niveles de irradiancia promedio anual, lo cual está directamente relacionado con la latitud y la nubosidad.
+
+                  li.d-flex
+                    i.fas.fa-circle.icon-list
+                    p.mb-0 #[b Energía eólica:] se mide la velocidad promedio del viento a diferentes alturas (generalmente 50 m, 80 m o 100 m). La viabilidad requiere velocidades de viento sostenidas y patrones de turbulencia bajos.
+            .col-sm-12.col-lg-3.d-none.d-lg-block
+              img(src='@/assets/curso/temas/t1/35.svg', alt='')
+
+        .py-4.py-md-5(titulo="Condiciones geográficas y topográficas" :icono="require('@/assets/curso/temas/t1/34.svg')")
+          .row.justify-content-center.mb-0
+            .col-sm-12.col-lg-9
+                p.mb-3 Se analizan factores físicos que afectan la instalación y el costo:
+                ul.lista-ul--color.mb-0
+                  li.d-flex
+                    i.fas.fa-circle.icon-list
+                    p.mb-0 #[b Disponibilidad de suelo:] se considera el espacio necesario para la instalación (ejemplo:hectáreas para un parque solar) y la topografía (planos vs. pendientes).
+                  li.d-flex
+                    i.fas.fa-circle.icon-list
+                    p.mb-0 #[b Acceso a la red:] la cercanía a un punto de conexión a la red de distribución o transmisión eléctrica reduce drásticamente los costos y la complejidad del proyecto.
+                  li.d-flex
+                    i.fas.fa-circle.icon-list
+                    p.mb-0 #[b Factores ambientales y regulatorios:] se consideran los requisitos de licenciamiento ambiental según la sensibilidad del ecosistema y las restricciones de uso del suelo.
+
+            .col-sm-12.col-lg-3.d-none.d-lg-block
+              img(src='@/assets/curso/temas/t1/36.svg', alt='')
+
+
+
+
+      .row.align-items-center.mb-5.titulo-icono-2
+        .col-auto.titulo-icono-2-img
+          img(src='@/assets/curso/temas/bg/1.svg', alt='')
+        .col
+          h3.mb-0.titulo-icono-2-text.px-0.py-2 Herramientas básicas de análisis de riesgo geográfico para proyectos renovables
+
+      p.mb-5 El riesgo geográfico y climático puede poner en peligro la viabilidad económica del proyecto.
+
+      .row.justify-content-center.cursor-pointer.mb-5(data-aos='fade-right')
+        .col-sm-12.col-lg-4.col-md-6.col-11.mb-4.mb-xl-0
+          .crd_hover_txt(@mouseover="mostrarIndicador = false")
+            .indicador--hover(v-if="mostrarIndicador")
+            .crd_hover_txt--img
+                img(src="@/assets/curso/temas/t1/37.png", alt="")
+            .crd_hover_txt--body.text-center
+              h4.mb-3 Mapas de recursos y atlas climáticos
+              p.mb-0 Se instruye en el uso de mapas de recursos solares y eólicos proporcionados por entidades gubernamentales o bases de datos internacionales para obtener una estimación precisa del potencial de generación antes de la medición #[i in situ].
+
+
+        .col-sm-12.col-lg-4.col-md-6.col-11.mb-4.mb-xl-0
+          .crd_hover_txt(@mouseover="mostrarIndicador = false")
+            .indicador--hover(v-if="mostrarIndicador")
+            .crd_hover_txt--img
+                img(src="@/assets/curso/temas/t1/38.png", alt="")
+            .crd_hover_txt--body.text-center
+              h4.mb-3 Análisis de riesgos climáticos
+              p.mb-0 Se evalúa el riesgo de eventos extremos que puedan dañar la infraestructura (ejemplo: granizo para paneles solares, huracanes para turbinas eólicas). La selección del sitio debe minimizar estos riesgos para asegurar la continuidad operativa.
+        .col-sm-12.col-lg-4.col-md-6.col-11.mb-4.mb-xl-0
+          .crd_hover_txt(@mouseover="mostrarIndicador = false")
+            .crd_hover_txt--img
+                img(src="@/assets/curso/temas/t1/39.png", alt="")
+            .crd_hover_txt--body.text-center
+              h4.mb-3 #[i Software] de simulación de rendimiento
+              p.mb-0 Se utilizan herramientas de simulación como PVsyst o Windographer para modelar el rendimiento energético esperado utilizando datos climáticos históricos del sitio. Esto permite proyectar el factor de capacidad de la instalación y validar la viabilidad económica.
+
+
+
+
+
       Separador
       #t_1_4.titulo-segundo.color-primario(data-aos='fade-right')
         h2 1.4. Evaluación crítica del ciclo de vida en la generación renovable

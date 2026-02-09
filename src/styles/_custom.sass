@@ -115,6 +115,47 @@ figcaption
     z-index: 99;
 .tabs-c
   border-bottom: none
+.lista-ol--cuadro__vineta 
+    background-color: #2D3D45
+    font-weight: bold
+.cursor-pointer.crd_hover_txt
+  cursor: pointer
+.cursor-pointer.crd_hover_txt
+  cursor: pointer
+.crd_hover_txt
+  position: relative  
+  padding: 0 !important
+  overflow: hidden !important  
+  border-radius: 20px;
+  &:hover    
+    .crd_hover_txt--body   
+      transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1) 
+      transform: translateY(0)
+      background-color: #99CAE5
+      background-repeat: no-repeat
+      background-size: cover
+      h4 
+        color: $color-sistema-texto
+  .crd_hover_txt--body
+    position: absolute
+    padding: 1.5rem
+    bottom: 0    
+    transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
+    transform: translateY(calc( 100% - 3.85rem ))
+    background-color: #87A771
+    h4
+      color: #FFF
+  @media (min-width:1200px) and (max-width:1400px)  
+    .crd_hover_txt--body
+      p
+        font-size: 0.85em
+.acordion
+  &__activo
+    background-color: #F8E29E !important
+  &__accion__btn--a
+    background-color: #9028E2
+    i
+      color: #FFF
 /**************************************************************/
 /***CUSTOM STYLES***/
 /**************************************************************/
