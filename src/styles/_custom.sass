@@ -55,6 +55,66 @@
 figcaption 
     font-weight: normal !important
 
+.tarjeta.tarjeta-verde
+  background-color: #DCECD1 !important
+.tarjeta.tarjeta-verde.acordion__activo
+  background-color: #CCE5F2 !important
+
+
+.acordion__accion__btn--a 
+    background-color: #F4D35E !important;
+    box-shadow: none !important;
+
+
+.lista-ul--color li > i:first-of-type
+    color: #007CBE;
+.pasos-a.color-primario .pasos-a__circle 
+    background-color: #2D3D45;
+.pasos-a.color-primario .pasos-a__numero::after
+    border-left-color: #B6C1C6;
+.pasos-a.color-primario .pasos-a__linea .hor-line
+    border-top-color: #B6C1C6;
+
+.pasos-a.color-primario .pasos-a__linea__esquina__linea
+    border-color: #B6C1C6;
+    border-radius: 0px 
+.col.py-3.text-end
+  text-align: start !important
+.tarjeta--boton 
+    background-color: #4A6572;
+    text-align: center !important
+    p
+      color: $white !important
+    img
+      filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(0%) hue-rotate(5deg) brightness(104%) contrast(101%);
+    &--titulo
+      background-color: #FFFFFF 
+.tarjeta--boton.color-secundario:active, 
+.tarjeta--boton.color-secundario:focus,
+.tarjeta--boton.color-secundario:hover
+    background-color: #DCECD1 !important;
+    
+    p
+      color: $color-sistema-texto !important
+    img
+      filter: brightness(0) saturate(100%) invert(34%) sepia(49%) saturate(256%) hue-rotate(154deg) brightness(96%) contrast(88%);
+    .tarjeta--boton--titulo
+      background-color: #A8D08D !important
+.tabs-a__tab 
+    background-color: #DBE0E3
+.tabs-a__tab__text 
+    white-space: normal;
+.tabs-c.color-primario .tabs-c__tab--active
+  font-weight: bold
+.tabs-c__content-item
+  background-color: #DBE0E3
+  position: relative;
+  top: -15px;
+  z-index: 0;
+.tabs-c__tab--active:before
+    z-index: 99;
+.tabs-c
+  border-bottom: none
 /**************************************************************/
 /***CUSTOM STYLES***/
 /**************************************************************/
@@ -65,10 +125,24 @@ figcaption
   background-repeat: no-repeat
   background-position: bottom
   margin-inline: -3.3rem
+.bg-fondo
+  &-1
+    background-image: url(../assets/curso/temas/bg/2.svg)
+    background-size: cover
+    background-repeat: no-repeat
+    background-position: center
+
 .bg-color
   &-1
     background-color: #E6F2F9 !important
-
+  &-2
+    background-color: #99CAE5 !important
+  &-3
+    background-color: #004B72 !important
+  &-4
+    background-color: #DCECD1 !important
+  &-5
+    background-color: #A8D08D !important
 .br
   &-1
     border-radius: 10px !important
@@ -79,9 +153,78 @@ figcaption
       
 .hcard
   &-1
-    height: 750px !important
-
+    height: 380px !important
+.w-cus
+  &-1
+    width: fit-content !important
+.icon-list
+  font-size: 10pxrem
+.titulo-icono
+  width: fit-content
+  position: relative;
+  left: 12px;
  
+  &-text
+    margin-right: 10px
+    margin-left: 45px;
+    @media screen and (max-width: 767px)
+      margin-left: 0px;
+      &:after
+          content: '';
+          display: block;
+          height: 3px;
+          width: 140px;
+          border-left: solid 250px;
+          border-color: $color-primario;
+          margin-top: 17px
+  &-img
+    padding: 0px
+    position: absolute
+    top: 10px
+
+    @media screen and (max-width: 767px)
+        display: none
+
+    &:after
+      content: '';
+      display: block;
+      height: 3px;
+      width: 140px;
+      border-left: solid 250px;
+      border-color: $color-primario;
+      margin-top: 30px
+
+    img
+      position: relative
+      max-width: 50px
+ 
+
+.titulo-icono-2
+  background-color: #007CBE
+  border-radius: 30px
+  width: fit-content
+  position: relative;
+  left: 15px;
+  &-text
+    margin-right: 10px
+    margin-left: 40px;
+    color: $white !important
+  &-img
+    padding: 0px
+    position: absolute
+    top: -6px
+    left: 5px
+
+
+    &:before
+      position: relative
+      border-radius: 60px
+      @media screen and (max-width: 767px)
+        height: 280%
+    img
+      position: relative
+      max-width: 50px
+
 
 /**************************************************************/
 /*Media Queries*/  
