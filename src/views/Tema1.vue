@@ -726,6 +726,76 @@
       #t_1_4.titulo-segundo.color-primario(data-aos='fade-right')
         h2 1.4. Evaluación crítica del ciclo de vida en la generación renovable
       
+
+      .bg-color-1.p-4.mb-5
+        .row.justify-content-center.mb-0
+          .col-sm-12.col-lg-1.d-none.d-lg-block
+            img(src='@/assets/curso/temas/t1/1.svg', alt='')
+          .col-sm-12.col-lg-11
+              p.mb-0 Aunque las energías renovables son esenciales para la sostenibilidad, es necesario analizarlas desde una perspectiva crítica de #[b Análisis de Ciclo de Vida (ACV)]. Este enfoque permite identificar impactos indirectos asociados a la extracción de materiales, manufactura, transporte, instalación, operación y fin de vida de cada tecnología. El objetivo es comprender cómo reducir dichos impactos mediante prácticas alineadas con la #[b economía circular].
+    
+
+
+      .row.align-items-center.mb-5.titulo-icono-3
+        .col
+          h3.mb-0.titulo-icono-3-text.px-0.py-2 Identificación de posibles impactos ambientales de las tecnologías renovables (uso de suelo y alteración de ecosistemas)
+
+      p.mb-5 Las tecnologías renovables no son completamente neutras; generan impactos ambientales en distintas etapas de su ciclo de vida.
+
+      .row.justify-content-center.mb-5.align-items-center
+        .col-sm-12.col-lg-3.d-none.d-lg-block
+          img(src='@/assets/curso/temas/t1/40.png', alt='')
+        .col-sm-12.col-lg-9
+          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta-verde")
+            .row.justify-content-center.align-items-center.mb-0(titulo="Uso de suelo y ocupación")
+              .col-12
+                p.mb-0 La instalación de parques solares o eólicos requiere superficies extensas. Esto puede generar fragmentación de hábitats, pérdida de cobertura vegetal y afectación de la biodiversidad. En el caso de la energía eólica, existe además riesgo de colisión de aves y murciélagos con las turbinas.
+
+            .row.justify-content-center.align-items-center.mb-0(titulo="Contaminación visual y sonora")
+              .col-12
+                p.mb-0 Los aerogeneradores pueden alterar el paisaje local y generar ruido continuo, afectando tanto a la fauna como a las comunidades cercanas. Este impacto debe ser considerado en estudios de percepción social y de compatibilidad ambiental.
+
+            .row.justify-content-center.align-items-center.mb-0(titulo="Uso de recursos hídricos y energía en la manufactura")
+              .col-12
+                p.mb-0 La producción de paneles fotovoltaicos, baterías o convertidores electrónicos es intensiva en el consumo de agua y energía. La purificación del silicio, por ejemplo, requiere altas temperaturas y procesos químicos que deben ser contabilizados en el ACV para evaluar su impacto real.
+            
+
+      .row.align-items-center.mb-5.titulo-icono-3
+        .col
+          h3.mb-0.titulo-icono-3-text.px-0.py-2 Riesgos de transferencia de impactos en la generación renovable (minería de metales críticos y residuos tecnológicos)
+
+      p.mb-5 El concepto de #[b transferencia de impactos] señala que una solución ambiental no debe generar problemas mayores en otras etapas del ciclo de vida.
+
+      .tarjeta--container.row.mb-5
+        .col-md.tarjeta.color-primario.p-5
+          .row.justify-content-center.align-items-end.mb-4
+            .col-sm-12.col-lg-2.d-none.d-lg-block
+              img(src='@/assets/curso/temas/t1/41.svg', alt='')
+            .col-sm-12.col-lg-10
+              .bg-color-2.mb-0.px-3.py-2.w-cus-1
+                h2.mb-0.text-cus-1 Minería de metales críticos
+          p.mb-0 Las tecnologías renovables dependen de minerales estratégicos como litio, cobalto, níquel y tierras raras. La extracción de estos materiales puede producir contaminación del agua, degradación del suelo, emisiones significativas y conflictos socioambientales en los territorios donde se explotan. Estos efectos deben integrarse en el ACV para evitar decisiones de diseño que desplacen el impacto.
+        
+        .col-md.tarjeta.color-acento-contenido.p-5
+          .row.justify-content-center.align-items-end.mb-4
+            .col-sm-12.col-lg-2.d-none.d-lg-block
+              img(src='@/assets/curso/temas/t1/42.svg', alt='')
+            .col-sm-12.col-lg-10
+              .bg-color-6.mb-0.px-3.py-2.w-cus-1
+                h2.mb-0.text-cus-1 Residuos tecnológicos (#[i e-waste])
+          p.mb-0 Al finalizar su vida útil, componentes como paneles solares, palas de aerogeneradores, baterías e inversores generan residuos difíciles de gestionar. La presencia de metales pesados, resinas y compuestos tóxicos representa un riesgo ambiental si no se aplican estrategias de recuperación y reciclaje adecuadas.
+      
+
+
+
+
+
+
+
+
+
+
+
       
       Separador
       #t_1_5.titulo-segundo.color-primario(data-aos='fade-right')

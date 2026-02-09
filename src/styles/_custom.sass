@@ -156,6 +156,9 @@ figcaption
     background-color: #9028E2
     i
       color: #FFF
+
+.tarjeta.color-primario
+    background-color: #004B72
 /**************************************************************/
 /***CUSTOM STYLES***/
 /**************************************************************/
@@ -206,6 +209,9 @@ figcaption
     width: 20% !important
 .icon-list
   font-size: 10pxrem
+.text-cus
+  &-1
+    color: $color-sistema-texto !important
 .titulo-icono
   width: fit-content
   position: relative;
@@ -271,6 +277,32 @@ figcaption
     img
       position: relative
       max-width: 50px
+.titulo-icono-3
+  width: fit-content
+  position: relative;
+ 
+  &-text
+    margin-right: 10px
+    &:after
+      content: '';
+      display: block;
+      height: 3px;
+      width: 140px;
+      border-left: solid 250px;
+      border-color: $color-primario;
+      margin-top: 17px
+
+    @media screen and (max-width: 767px)
+      margin-left: 0px;
+      &:after
+          content: '';
+          display: block;
+          height: 3px;
+          width: 140px;
+          border-left: solid 250px;
+          border-color: $color-primario;
+          margin-top: 17px
+  
 
 
 /**************************************************************/
