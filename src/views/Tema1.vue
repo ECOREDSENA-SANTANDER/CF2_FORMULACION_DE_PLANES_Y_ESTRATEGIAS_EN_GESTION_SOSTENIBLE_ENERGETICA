@@ -234,14 +234,14 @@
           .row.justify-content-center.mb-0
             .col-sm-12.col-lg-5.d-none.d-lg-block
               img(src='@/assets/curso/temas/t1/13.svg', alt='')
-            .col-sm-12.col-lg-6
+            .col-sm-12.col-lg-6.p-cus-1
                 p.mb-3.mt-5 El estudiante aprende a elaborar una tabla donde se proyectan los ahorros y los costos anuales durante la vida útil del proyecto.
                 p.mb-0 Este modelo permite calcular indicadores como el Valor Presente Neto (VPN) y la Tasa Interna de Retorno (TIR), esenciales para evaluar si la inversión genera beneficios reales en términos financieros.
         .py-3.py-md-4(titulo="Presentación ejecutiva del caso de negocio (doble dividendo)")
           .row.justify-content-center.mb-0
             .col-sm-12.col-lg-5.d-none.d-lg-block
               img(src='@/assets/curso/temas/t1/14.svg', alt='')
-            .col-sm-12.col-lg-6
+            .col-sm-12.col-lg-6.p-cus-1
                 p.mb-3.mt-5 La justificación debe ser clara, breve y orientada a la toma de decisiones. Para ello, el aprendiz presenta:
                 ul.lista-ul--color.mb-4
                   li.d-flex
@@ -526,7 +526,7 @@
           .row.justify-content-center.mb-0
             .col-sm-12.col-lg-5.d-none.d-lg-block
               img(src='@/assets/curso/temas/t1/30.svg', alt='')
-            .col-sm-12.col-lg-6
+            .col-sm-12.col-lg-6.p-cus-1
                 p.mb-3.mt-5 Cada fuente renovable aprovecha un fenómeno natural que ocurre de manera continua:
                 ul.lista-ul--color.mb-3
                   li.d-flex
@@ -550,7 +550,7 @@
           .row.justify-content-center.mb-0
             .col-sm-12.col-lg-5.d-none.d-lg-block
               img(src='@/assets/curso/temas/t1/31.svg', alt='')
-            .col-sm-12.col-lg-6
+            .col-sm-12.col-lg-6.p-cus-1
                 p.mb-4 Una vez capturada la energía natural, se requiere convertirla a una forma que pueda ser utilizada por los equipos o sistemas.
                 p.mb-3 Ejemplo didáctico: #[b Energía solar fotovoltaica]
                 ol.lista-ol--cuadro
@@ -767,7 +767,7 @@
       p.mb-5(data-aos="fade-right") El concepto de #[b transferencia de impactos] señala que una solución ambiental no debe generar problemas mayores en otras etapas del ciclo de vida.
 
       .tarjeta--container.row.mb-5(data-aos="fade-right")
-        .col-md.tarjeta.color-primario.p-5
+        .col-md.tarjeta.color-primario.p-5.mb-cus
           .row.justify-content-center.align-items-end.mb-4
             .col-sm-12.col-lg-2.d-none.d-lg-block
               img(src='@/assets/curso/temas/t1/41.svg', alt='')

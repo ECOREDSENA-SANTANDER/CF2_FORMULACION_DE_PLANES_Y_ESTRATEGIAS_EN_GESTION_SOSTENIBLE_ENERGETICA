@@ -332,11 +332,12 @@ figcaption
     margin-bottom: 2em  !important   
   .col-lg-7.col-xxl-5.ps-4.ps-sm-5.py-4.py-sm-5.banner-principal__info 
     width: 95% !important;
-  .container .tarjeta
-    background-image: url(../assets/curso/portada/fondo-banner-principal-992.png) !important
-    background-size: cover !important
+  .hcard
+    &-1
+      height: 450px !important
   
-  
+  .p-cus-1
+    padding: 0 3rem !important
 //// TABLET MINI 768--------------------------------------
 @media screen and (max-width: $bp-min-md)
   .mb-cus
@@ -354,3 +355,20 @@ figcaption
   .banner-principal__info
     padding-top: 5rem !important;
     padding-bottom: 5rem !important; 
+  
+  .titulo-icono-2
+    background-color: #007CBE
+    left: 0px;
+    &-text
+      margin-left: 10px;
+    img
+      display: none
+  
+  
+  
+  .tarjeta--container > .tarjeta:last-child,
+  .tarjeta--container > .tarjeta:first-child
+    border-radius: 20px !important
+  .hcard
+    &-1
+      height: auto !important
