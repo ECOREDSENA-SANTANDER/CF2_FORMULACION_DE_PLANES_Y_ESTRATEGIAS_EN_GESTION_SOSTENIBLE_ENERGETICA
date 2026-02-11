@@ -1,7 +1,7 @@
 export default {
   global: {
     Name:
-      'Análisis de viabilidad, eficiencia y cuantificación de impactos en procesos energéticos.',
+      'Análisis de viabilidad, eficiencia y cuantificación de impactos en procesos energéticos',
     Description:
       'Este componente formativo aborda el análisis de viabilidad, eficiencia y cuantificación de impactos en procesos energéticos, proporcionando a los aprendices las bases necesarias para evaluar la factibilidad técnica y económica de proyectos, identificar el nivel de aprovechamiento de los recursos y medir los efectos ambientales, sociales y económicos asociados. Su propósito es desarrollar competencias que permitan tomar decisiones informadas y promover prácticas energéticas más sostenibles.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
@@ -120,21 +120,21 @@ export default {
     {
       tema: 'Análisis de viabilidad económica de tecnologías eficientes',
       referencia:
-        'E-commerce Expert (2022, 17 de noviembre). TIR o VPN ¿Cuál es mejor para tomar decisiones de inversión?',
+        'Finnse (2019, 27 de junio). TIR o VPN ¿Cuál es mejor para tomar decisiones de inversión?',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=ezcniOjP-pI',
     },
     {
       tema: 'Cuantificación de impactos y reducción de GEI',
       referencia:
-        'ESE (2023, 14 de marzo). Webinar Metodología para la cuantificación de ahorros de energía.',
+        'Canal Conuee (2018, 28 de noviembre). Webinar Metodología para la cuantificación de ahorros de energía.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=6JyQsU6MQr4',
     },
     {
       tema: 'Evaluación crítica del ciclo de vida en la generación renovable',
       referencia:
-        'Ahorro Total (2021, 10 de septiembre). 5 TIPOS de ENERGÍAS RENOVABLES y Cómo Funcionan.',
+        'EcologíaVerde (2023, 16 de julio). 5 TIPOS de ENERGÍAS RENOVABLES y Cómo Funcionan.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=E4ZoFhVPqwY',
     },
@@ -183,7 +183,7 @@ export default {
     {
       termino: 'Emisiones de GEI',
       significado:
-        'liberación de gases de efecto invernadero, como co₂, que contribuyen al calentamiento global.',
+        'liberación de gases de efecto invernadero, como CO₂, que contribuyen al calentamiento global.',
     },
     {
       termino: 'Eficiencia energética',
@@ -198,12 +198,12 @@ export default {
     {
       termino: 'Impactos ambientales',
       significado:
-        'consecuencias de las actividades humanas sobre el medio ambiente, como contaminación, pérdida de biodiversidad y emisiones de gei.',
+        'consecuencias de las actividades humanas sobre el medio ambiente, como contaminación, pérdida de biodiversidad y emisiones de GEI.',
     },
     {
       termino: 'Mitigación',
       significado:
-        'acciones destinadas a reducir o prevenir los impactos ambientales, especialmente las emisiones de gei.',
+        'acciones destinadas a reducir o prevenir los impactos ambientales, especialmente las emisiones de GEI.',
     },
     {
       termino: 'Recursos naturales',
@@ -213,23 +213,23 @@ export default {
     {
       termino: 'Sostenibilidad',
       significado:
-        'que mide la demanda humana de recursos naturales frente a la capacidad del planeta para regenerarlos.',
+        'Equilibrio entre lo ambiental, social y económico para satisfacer necesidades presentes sin comprometer las de futuras generaciones.',
     },
   ],
   referencias: [
     {
       referencia:
-        'Comisión Mundial sobre Medio Ambiente y Desarrollo. (1987). Nuestro futuro común (Informe Brundtland)',
+        'Comisión Mundial sobre Medio Ambiente y Desarrollo. (1987). <i>Nuestro futuro común (Informe Brundtland)</i>',
     },
 
     {
       referencia:
-        '<i>Global Footprint Network.</i> (2024). Huella Ecológica: Conceptos, Medición y Aplicaciones',
+        '<i>Global Footprint Network.</i> (2024). <i>Huella Ecológica: Conceptos, Medición y Aplicaciones</i>',
     },
 
     {
       referencia:
-        'Ellen MacArthur Foundation. (2017). Introducción a la economía circular',
+        'Ellen MacArthur Foundation. (2017). <i>Introducción a la economía circular</i>',
     },
 
     {
@@ -239,7 +239,7 @@ export default {
 
     {
       referencia:
-        'Ministerio de Ambiente y Desarrollo Sostenible (MADS) de Colombia. (2019). Guía metodológica para la evaluación de impactos ambientales.',
+        'Ministerio de Ambiente y Desarrollo Sostenible (MADS) de Colombia. (2019). <i>Guía metodológica para la evaluación de impactos ambientales.</i>',
     },
 
     {
@@ -293,7 +293,7 @@ export default {
         },
         {
           nombre: 'Maria Alejandra Vera Briceño',
-          cargo: 'Animador y productor audiovisual',
+          cargo: 'Animadora y productora audiovisual',
           centro: 'Centro Agroturístico - Regional Santander',
         },
       ],

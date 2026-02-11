@@ -153,7 +153,7 @@
                   img(src='@/assets/curso/temas/t1/9.svg')
             .tarjeta--boton--titulo.mb-4.px-3.py-2.w-cus-1
                 h4.mb-0 Periodo de recuperación de la inversión (#[i payback simple])
-            p.text-center.mb-0 Indica el tiempo necesario para que el ahorro generado por la medida de eficiencia iguale el costo total de la inversión. Es un indicador sencillo, útil para valorar qué tan rápido se recupera el capital y el nivel de riesgo asociado. Entre menor sea el payback, más atractiva suele ser la medida.
+            p.text-center.mb-0 Indica el tiempo necesario para que el ahorro generado por la medida de eficiencia iguale el costo total de la inversión. Es un indicador sencillo, útil para valorar qué tan rápido se recupera el capital y el nivel de riesgo asociado. Entre menor sea el #[i payback], más atractiva suele ser la medida.
 
         .col-sm-12.col-md-6.col-lg-4.mb-cus
           .tarjeta--boton.color-secundario.p-4.hcard-1
@@ -236,7 +236,7 @@
               img(src='@/assets/curso/temas/t1/13.svg', alt='')
             .col-sm-12.col-lg-6.p-cus-1
                 p.mb-3.mt-5 El estudiante aprende a elaborar una tabla donde se proyectan los ahorros y los costos anuales durante la vida útil del proyecto.
-                p.mb-0 Este modelo permite calcular indicadores como el Valor Presente Neto (VPN) y la Tasa Interna de Retorno (TIR), esenciales para evaluar si la inversión genera beneficios reales en términos financieros.
+                p.mb-0 Este modelo permite calcular indicadores como el #[b Valor Presente Neto (VPN)] y la #[b Tasa Interna de Retorno (TIR)], esenciales para evaluar si la inversión genera beneficios reales en términos financieros.
         .py-3.py-md-4(titulo="Presentación ejecutiva del caso de negocio (doble dividendo)")
           .row.justify-content-center.mb-0
             .col-sm-12.col-lg-5.d-none.d-lg-block
@@ -459,7 +459,7 @@
         .col
           h3.mb-0.titulo-icono-2-text.px-0.py-2 Relación directa entre ahorro energético y mitigación de impactos sobre los recursos naturales
 
-      p.mb-5(data-aos="fade-right") Este numeral integra todos los resultados, demostrando el encadenamiento causa – efecto entre eficiencia energética y sostenibilidad ambiental.
+      p.mb-5(data-aos="fade-right") Este numeral integra todos los resultados, demostrando el #[b encadenamiento causa – efecto] entre eficiencia energética y sostenibilidad ambiental.
 
       .bg-color-2.p-0.mb-3(data-aos="fade-right")
         .row.justify-content-center.mb-5.align-items-center
@@ -552,7 +552,8 @@
               img(src='@/assets/curso/temas/t1/31.svg', alt='')
             .col-sm-12.col-lg-6.p-cus-1
                 p.mb-4 Una vez capturada la energía natural, se requiere convertirla a una forma que pueda ser utilizada por los equipos o sistemas.
-                p.mb-3 Ejemplo didáctico: #[b Energía solar fotovoltaica]
+                p.mb-0 Ejemplo didáctico: 
+                p.mb-3 #[b Energía solar fotovoltaica]
                 ol.lista-ol--cuadro
                   li.d-flex
                     .lista-ol--cuadro__vineta
@@ -654,7 +655,7 @@
                 ul.lista-ul--color.mb-0
                   li.d-flex
                     i.fas.fa-circle.icon-list
-                    p.mb-0 #[b Energía solar:] se evalúa la radiación solar directa normal (DNI, por sus siglas en inglés Direct Normal Irradiance) y la radiación global horizontal (GHI, Global Horizontal Irradiance) en el sitio. Un lugar se considera viable si presenta altos niveles de irradiancia promedio anual, lo cual está directamente relacionado con la latitud y la nubosidad.
+                    p.mb-0 #[b Energía solar:] se evalúa la radiación solar directa normal (DNI, por sus siglas en inglés #[i Direct Normal Irradiance]) y la radiación global horizontal (GHI, #[i Global Horizontal Irradiance]) en el sitio. Un lugar se considera viable si presenta altos niveles de irradiancia promedio anual, lo cual está directamente relacionado con la latitud y la nubosidad.
 
                   li.d-flex
                     i.fas.fa-circle.icon-list
@@ -669,7 +670,7 @@
                 ul.lista-ul--color.mb-0
                   li.d-flex
                     i.fas.fa-circle.icon-list
-                    p.mb-0 #[b Disponibilidad de suelo:] se considera el espacio necesario para la instalación (ejemplo:hectáreas para un parque solar) y la topografía (planos vs. pendientes).
+                    p.mb-0 #[b Disponibilidad de suelo:] se considera el espacio necesario para la instalación (ejemplo: hectáreas para un parque solar) y la topografía (planos vs. pendientes).
                   li.d-flex
                     i.fas.fa-circle.icon-list
                     p.mb-0 #[b Acceso a la red:] la cercanía a un punto de conexión a la red de distribución o transmisión eléctrica reduce drásticamente los costos y la complejidad del proyecto.

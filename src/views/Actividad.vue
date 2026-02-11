@@ -22,10 +22,10 @@ export default {
       tema: 'Nombre del CF',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> Evaluar la comprensión y el uso adecuado de las herramientas básicas en la ventana <em>Board</em> del <em>software</em> EAGLE.',
+        '<b> Objetivo:</b> evaluar la comprensión de los conceptos fundamentales del componente formativo.',
       barajarPreguntas: true,
-      titulo_aprobado: '¡BUEN TRABAJO!..',
-      titulo_reprobado: 'VUELVA A INTENTARLO..',
+      titulo_aprobado: '¡BUEN TRABAJO!',
+      titulo_reprobado: 'VUELVA A INTENTARLO.',
       preguntas: [
         {
           id: 1,
@@ -214,7 +214,7 @@ export default {
         {
           id: 9,
           texto:
-            'Uno de los mayores riesgos de Transferencia de Impactos de las tecnologías renovables ocurre en la fase de Disposición de Residuos (e-waste), ya que estos contienen metales pesados.',
+            'Uno de los mayores riesgos de Transferencia de Impactos de las tecnologías renovables ocurre en la fase de Disposición de Residuos (<i>e-waste</i>), ya que estos contienen metales pesados.',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [

@@ -11,7 +11,7 @@
     .row.justify-content-center
       .col-lg-10.mb-5.bgs.p-4.brad
         figure
-          img(src="@/assets/curso/sintesis.svg", alt="Descripción imagen")
+          img(src="@/assets/curso/sintesis.svg", alt="Se presentan etapas del análisis de viabilidad, eficiencia y evaluación de impactos en procesos energéticos, con recuadros y flechas que describen aspectos como eficiencia energética, viabilidad económica, reducción de GEI, energías renovables, evaluación del ciclo de vida y participación comunitaria.")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono
