@@ -90,11 +90,6 @@ export default {
         titulo: 'Glosario',
       },
       {
-        nombreRuta: 'complementario',
-        icono: 'far fa-folder-open',
-        titulo: 'Material complementario',
-      },
-      {
         icono: 'fas fa-book',
         titulo: 'Referencias bibliográficas',
         nombreRuta: 'referencias',
@@ -102,7 +97,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/dist.pdf',
+        download: 'downloads/CF2_22230062_DU.zip',
       },
       {
         icono: 'fas fa-download',
@@ -116,29 +111,7 @@ export default {
       },
     ],
   },
-  complementario: [
-    {
-      tema: 'Análisis de viabilidad económica de tecnologías eficientes',
-      referencia:
-        'Finnse (2019, 27 de junio). TIR o VPN ¿Cuál es mejor para tomar decisiones de inversión?',
-      tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=ezcniOjP-pI',
-    },
-    {
-      tema: 'Cuantificación de impactos y reducción de GEI',
-      referencia:
-        'Canal Conuee (2018, 28 de noviembre). Webinar Metodología para la cuantificación de ahorros de energía.',
-      tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=6JyQsU6MQr4',
-    },
-    {
-      tema: 'Evaluación crítica del ciclo de vida en la generación renovable',
-      referencia:
-        'EcologíaVerde (2023, 16 de julio). 5 TIPOS de ENERGÍAS RENOVABLES y Cómo Funcionan.',
-      tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=E4ZoFhVPqwY',
-    },
-  ],
+  complementario: [],
   glosario: [
     {
       termino: 'Biocapacidad',
@@ -252,12 +225,12 @@ export default {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Milady Tatiana Villamil Castellanos',
+          nombre: 'Claudia Johanna Gómez Pérez',
           cargo: 'Responsable del ecosistema',
           centro: 'Dirección General',
         },
         {
-          nombre: 'Claudia Johanna Gómez Pérez',
+          nombre: 'Edison Eduardo Mantilla Cuadros',
           cargo: 'Responsable de línea de producción',
           centro: 'Centro Agroturístico - Regional Santander',
         },
@@ -307,8 +280,8 @@ export default {
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: '-- ',
-          cargo: 'Evaluadora para contenidos inclusivos y accesibles',
+          nombre: 'Laura Paola Gelvez Manosalva',
+          cargo: 'Evaluadora de contenidos inclusivos y accesibles',
           centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
