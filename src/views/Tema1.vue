@@ -277,7 +277,7 @@
 
       Separador
       #t_1_2.titulo-segundo.color-primario(data-aos='fade-right')
-        h2 1.2.Cuantificación de impactos y reducción de GEI
+        h2 1.2. Cuantificación de impactos y reducción de GEI
       
       
       .bg-color-1.p-4.mb-5(data-aos="fade-right")
